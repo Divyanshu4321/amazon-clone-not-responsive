@@ -1,0 +1,372 @@
+body{
+    background-color: #E3E6E6;
+    width: 100%;
+}
+*{
+    margin: 0;
+    padding: 0;
+    
+
+}
+.logo-container{
+ width: 100%;
+ height: 60px;
+ background-color: black;
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ color: white;
+}
+.logo{
+    width: 120px;
+    height: 40px;
+    padding: 5px;
+    margin-left: 5px;
+}
+.logo:hover{
+    border: 1.5px solid white;
+}
+.div-address{
+    width: 150px;
+    height: 45px;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+.div-address:hover{
+    border: 1.5px solid white;
+}
+.div-allbtn{
+    width: 760px;
+    background-color: orange;
+    height: 40px;
+    padding: 0;
+    margin: 0;
+}
+.All-btn{
+    height: 40px;
+    width: 56px;
+    padding-top: 5px;
+}
+.search{
+    width:635px;
+    margin-left: -3.9px;
+    margin-right: -3.9px;
+    height: 34px;
+    padding-top: 3px;
+    padding-left: 20px;
+    font-size: 16px;
+}
+.search-btn{
+    height: 100%;
+    width: 45px;
+    font-size: 20px;
+    border: none;
+    background-color: orange;
+}
+.language{
+    display: flex;
+    height: 40px;
+    align-items: center;
+}
+.language:hover{
+    border:1.5px solid white;
+    }
+.option{
+    background-color: black;
+    color: white;
+    border: none;
+}
+.option option{
+    background-color: white;
+    color: black;
+    border: none;
+}
+.flag{
+width: 20px;
+height: 20px;
+margin: 5px;
+}
+.signin{
+    padding: 5px;
+    height: 40px;
+    width: 120px;
+
+}
+.signin:hover{
+    border: 1.5px solid white;
+
+}
+.return{
+    height: 40px;
+    width: 80px;
+    padding-left: 15px;
+    padding-right: 8px;
+}
+.return:hover{
+    border: 1.5px solid white;
+}
+.cart{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:40px;
+    width: 60px;
+}
+.cart i{
+    font-size: 25px;
+}
+.cart:hover{
+    border: 1.5px solid white;
+}
+.container-2{
+    background-color: #133232;
+    height:37px;
+    width: 100%;
+    color: white;
+    display: flex;
+    align-items: center;
+    
+}
+.container-2 div{
+    margin-left: 17px;
+}
+.i{
+    font-size: 20px;
+    margin: 7px;
+    margin-left: 10px;
+}
+.con-2-img{
+    height: 30px;
+    width: 350px;
+    margin-left: 55px;
+    margin-top: 13px;
+    margin-bottom: 15px;
+}
+
+
+
+.slide-container{
+    position: relative;
+     width: 100%;
+}
+.slide img{
+    width: 100%; 
+}
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 20%;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.712);
+    padding: 8px 18px;
+    border-radius: 50%;
+    font-size: 25px;
+    font-weight: bold;
+}
+.next{
+    right: 10px;
+}
+.prev{
+    left: 10px ;
+}
+.slide{
+    display: none;
+}
+.ex{
+    margin-left: px;
+}
+
+
+.hero-section{
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 60%;
+    margin-left: 15px;
+}
+.hero-section1{
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+    margin-top: 165px;
+    margin-left: 10px;
+}
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 355px;
+    margin: 9.5px;
+    margin-left: 10px;
+    background-color: white;
+
+    
+}
+
+.container-card1{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    height: 420px;
+    width: 355px;
+    margin: 9.5px;
+    margin-left: -15px;
+    background-color: white;
+
+    
+}
+
+.h2-box{
+    margin-top: 20px;
+    margin-left: 1px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.extra{
+    margin-bottom: 18px;
+}
+.p-box{
+    font-size: 14px;
+    font-weight:lighter;
+    margin-bottom: 10px;
+}
+.see-all-btn{
+    display: flex;
+    margin-top: 10PX;
+    margin-right:206px ;
+    text-decoration:none;
+    color: #007185;
+    font-size: 14px;
+}
+
+
+.hero-image{
+    margin-top: -22px;
+    width: 135px;
+    height: 105px;
+
+}
+.hero-image2{
+    margin-left: px;
+    margin-top: -12px;
+    width: 280px;
+    height: 285px;
+}
+
+
+
+
+
+.wrapper {
+  width: 98%;
+  margin-left: 15px;
+  position: relative;
+  background-color: white;
+}
+.wrapper i {
+  top: 50%;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+  font-size: 1.25rem;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  background: #fff;
+  border-radius: 50%;
+  box-shadow: 0 3px 6px rgba(0,0,0,0.23);
+  transform: translateY(-50%);
+  transition: transform 0.1s linear;
+}
+.wrapper i:active{
+  transform: translateY(-50%) scale(0.85);
+}
+.wrapper i:first-child{
+  left: -22px;
+}
+.wrapper i:last-child{
+  right: -22px;
+}
+.wrapper .carousel{
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: calc((100% / 5) - 25px);
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  gap: 1px;
+  border-radius: 0px;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+}
+.carousel::-webkit-scrollbar {
+  display: none;
+}
+.carousel.no-transition {
+  scroll-behavior: auto;
+}
+.carousel.dragging {
+  scroll-snap-type: none;
+  scroll-behavior: auto;
+}
+.carousel.dragging .card {
+  cursor: grab;
+  user-select: none;
+}
+.carousel :where(.card, .img) {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.carousel .card {
+  scroll-snap-align: start;
+  height: 250px;
+  list-style: none;
+  background: #fff;
+  cursor: pointer;
+  padding-bottom: 15px;
+  flex-direction: column;
+  border-radius: 8px;
+}
+.carousel .card .img {
+  background: whitesmoke;
+  height: 190px;
+  width: 265px;
+  margin-bottom: 10px;
+}
+.card .img img {
+  width: auto;
+  height: 150px;
+}
+.carousel .card h2 {
+  font-weight: 400;
+  background-color: rgb(224, 5, 5);
+  color: white;
+  padding:2px 6px 2px 8px;
+  font-size: 16px;
+  display: inline;
+  margin-left: -45px;
+}
+.carousel .card span {
+  background-color: none;
+  color: red;
+  margin-left: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .wrapper .carousel {
+    grid-auto-columns: calc((100% / 2) - 9px);
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .wrapper .carousel {
+    grid-auto-columns: 100%;
+  }
+}
+hr{
+    color: #f3f2f2;
+}
+.footer-btt:hover{
+    border: 1.5px solid white;
+}

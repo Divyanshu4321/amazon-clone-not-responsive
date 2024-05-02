@@ -1,0 +1,29 @@
+.heading
+{
+    font-size: 2rem;
+    color: white;
+    font-family:'poppins',sans-serif;
+    text-align: center;
+    margin-top: 5%;
+}
+.img-gallery
+{
+    display: flex;
+    height: 10rem;
+    gap: 1rem;
+    margin-top: 10%;
+}
+.img
+{
+    flex: 2;
+    border-radius: 1rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    transition: 
+    all .5s cubic-bezier(.25,.4,.45,1.4);
+}
+.img:hover
+{
+    flex:2.2;
+}
